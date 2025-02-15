@@ -301,7 +301,7 @@ export default function HomePage() {
 
   return (
     <div style={{ padding: '20px', maxWidth: '600px', margin: '0 auto' }}>
-      <h1>Web画面POSアプリ</h1>
+      <h1>POSアプリ</h1>
 
       {/* (4) スキャンボタン */}
       <button onClick={handleToggleScan} style={{ marginBottom: '8px' }}>
