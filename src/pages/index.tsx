@@ -31,7 +31,7 @@ export default function HomePage() {
   // --- バックエンドURL: .envがあればそれを優先し、なければ直書き ---
   const backendUrl =
     process.env.NEXT_PUBLIC_BACKEND_API_URL ||
-    "https://tech0-gen8-step4-pos-app-40.azurewebsites.net";
+    "https://tech0-gen8-step4-pos-app-68.azurewebsites.net";
 
   // 取引ID (バックエンドで作成したもの)
   const [transactionId, setTransactionId] = useState<number | null>(null);
